@@ -218,7 +218,7 @@ def main():
     # 3) Run all four variants
     c = 2          # number of clusters
     m = 2.0        # fuzzifier exponent
-    max_iter = 50
+    max_iter = 40
     tol = 1e-5
 
     U_fcm, ctr_fcm     = run_fcm_variant(X_fuzzy_fcm,  c, m, max_iter, tol)
